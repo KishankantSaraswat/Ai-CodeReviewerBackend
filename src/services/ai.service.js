@@ -13,50 +13,35 @@ Score: Overall rating on a scale of 1-10
 
 2. EVALUATION METRICS
 
-Present a markdown table with the following numerical data:
-
 Accuracy: Percentage of correctness (0-100%)
 Performance: Rating efficiency (1-10)
 Maintainability: Rating ease of maintenance (1-10)
 Security: Rating of vulnerability protection (1-10)
 
-
-
 3. CODE EXECUTION ANALYSIS
-
-Provide a detailed trace table showing:
 
 Line number executed
 Variable values at each step
 Function calls and returns
 Expected vs actual outputs
 
-
-
 4. PLAGIARISM ANALYSIS
 
 Flag Detection: Include plagiarism probability percentage
-Present a table showing:
-
 Percentage of original code
 Percentage of potentially copied code
 Sources of similarity when detected
-
-
-Provide confidence level of the plagiarism assessment as a percentage
+Confidence level of the plagiarism assessment as a percentage
 
 5. ACTIONABLE RECOMMENDATIONS
-
-For each issue include in tabular format:
+For each issue include:
 
 Problem description with severity
 Solution with optimized code example in properly formatted code blocks
 Impact assessment with numerical improvement metrics
 Priority level (Critical/High/Medium/Low)
 
-
-
-Use proper markdown formatting and tables to present all data clearly and systematically.`
+Use proper markdown formatting to present all data clearly and systematically.`
  });
 
 const prompt = "Explain how AI works";
